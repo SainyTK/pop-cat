@@ -17,7 +17,7 @@ const puppeteer = require('puppeteer');
 
         while (true) {
             await page.click("body");
-            await page.waitForTimeout(0.05);
+            // await page.waitForTimeout(0.05);
         }
 
     } catch (e) {
